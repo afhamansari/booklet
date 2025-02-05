@@ -38,7 +38,7 @@ header {
     border-radius: 10px;
     padding: 12px 30px; /* Increased padding for larger buttons */
     font-size: 16px; /* Increased font size for bigger buttons */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -66,6 +66,8 @@ body {
   .search-bar {
     position: relative;
     margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
   }
   
   /* Selected genre (acts as a button) */
@@ -194,7 +196,7 @@ body {
   
   .about-us-intro h1 {
     font-size: 24px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', cursive;
     color: #333;
     text-align: center;
     margin-bottom: 10px;
@@ -218,7 +220,7 @@ body {
   
   .share-books h2 {
     font-size: 20px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
@@ -240,7 +242,7 @@ body {
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 14px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     transition: background-color 0.3s;
   }
@@ -307,6 +309,15 @@ body {
     line-height: 1.6;
 }
 
+.page-head{
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #555;
+}
+
+
+
 /* Google Form iframe styling */
 iframe {
   width: 100%;
@@ -315,3 +326,5 @@ iframe {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
