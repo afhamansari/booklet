@@ -244,43 +244,9 @@
   .top-button:hover {
     background-color: #218838;
   }
-  
-  /* Mobile Responsiveness */
-  @media (max-width: 480px) {
-    .about-us-intro,
-    .share-books {
-      padding: 15px;
-    }
-  
-    .about-us-intro h1,
-    .share-books h2 {
-      font-size: 20px;
-    }
-  
-    .share-books p,
-    .about-us-intro p {
-      font-size: 13px;
-    }
-  
-    .share-books button {
-      padding: 8px 16px;
-      font-size: 12px;
-    }
-  
-    .top-container {
-      flex-direction: column;
-      gap: 10px;
-    }
-  
-    header {
-      top: 10px; /* Add spacing for smaller devices */
-    }
-  }
-  
 
 
 
-  
   /* Events container */
 #events-container {
     max-width: 800px;
@@ -336,21 +302,3 @@
     line-height: 1.6;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 480px) {
-    #events-container {
-        padding: 15px;
-    }
-
-    .event {
-        padding: 10px;
-    }
-
-    .event h3 {
-        font-size: 18px;
-    }
-
-    .event p {
-        font-size: 13px;
-    }
-}
