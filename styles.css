@@ -6,55 +6,58 @@
   }
 
   
-  /* Header styling */
-  header {
+/* Header styling */
+header {
     width: 100%;
     position: fixed; /* Fix it at the top */
     top: 0; /* Align to the top */
     left: 0; /* Make sure it spans the entire width */
-  }
-  
-  /* Center the top container horizontally */
-  .top-container {
+    z-index: 1000; /* Ensure the header is above other elements */
+    background-color: #fff; /* Keep background visible */
+}
+
+/* Center the top container horizontally */
+.top-container {
     background-color: #fff;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px; /* Increased padding for more height */
     display: flex;
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 0 auto 20px; /* Center horizontally and add spacing below */
-    width: 100%; /* Adjust width to fit smaller screens */
-    max-width: 400px; /* Restrict maximum width */
-  }
-  
-  /* Styling for each button */
-  .top-button {
+    width: 100%; /* Full width of the screen */
+    max-width: 600px; /* Increased max-width for a longer bar */
+}
+
+/* Styling for each button */
+.top-button {
     background-color: #28a745;
     color: #fff;
     border: none;
     border-radius: 10px;
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 12px 30px; /* Increased padding for larger buttons */
+    font-size: 16px; /* Increased font size for bigger buttons */
     font-family: 'Arial', sans-serif;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .top-button:hover {
+}
+
+.top-button:hover {
     background-color: #218838;
-  }
+}
+
+/* Add padding to the body to prevent content overlap */
+body {
+    padding-top: 80px; /* Adjust this value based on the header's height */
+
+}
 
 
-  /* Add padding to the body to prevent content overlap */
-  body {
-    padding-top: 70px; /* Adjust this value based on the header's height */
-  }
-  
-  
   /* Container with fixed max-width of 400px */
   .container {
-    max-width: 600px;
+    margin-top: 20px;
+    max-width: 800px;
     width: 100%;
     margin: 0 auto; /* Center horizontally */
   }
