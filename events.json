@@ -1,20 +1,8 @@
 [
     {
-        "name": "Book Reading by Jane Doe",
-        "photo": "images/book-reading.jpg",
-        "date": "2025-02-15",
-        "description": "Join us for an exclusive book reading session with author Jane Doe. Dive into the world of her latest bestseller."
-    },
-    {
-        "name": "Creative Writing Workshop",
-        "photo": "images/writing-workshop.jpg",
-        "date": "2025-02-20",
-        "description": "Enhance your writing skills with our creative writing workshop, led by renowned authors and editors."
-    },
-    {
-        "name": "Children's Storytelling Hour",
-        "photo": "images/storytelling.jpg",
-        "date": "2025-03-05",
-        "description": "Bring your kids for a fun storytelling hour filled with laughter and adventure. Perfect for ages 4-10!"
+        "name": "Coming soon",
+        "photo": "",
+        "date": "",
+        "description": ""
     }
 ]
