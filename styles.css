@@ -1,0 +1,356 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  /* Header styling */
+  header {
+    width: 100%;
+    position: fixed; /* Fix it at the top */
+    top: 0; /* Align to the top */
+    left: 0; /* Make sure it spans the entire width */
+  }
+  
+  /* Add padding to the body to prevent content overlap */
+  body {
+    padding-top: 60px; /* Adjust this value based on the header's height */
+  }
+  
+  
+  /* Container with fixed max-width of 400px */
+  .container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  /* Search bar container */
+  .search-bar {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  /* Selected genre (acts as a button) */
+  .selected-genre {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* Genre dropdown list */
+  .genre-dropdown {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    z-index: 10;
+  }
+  
+  /* When dropdown is open */
+  .genre-dropdown.open {
+    max-height: 200px; /* Adjust as needed */
+    overflow-y: auto;
+  }
+  
+  /* Each dropdown item */
+  .genre-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .genre-dropdown li:last-child {
+    border-bottom: none;
+  }
+  
+  .genre-dropdown li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Grid layout: 2 books per row with gap between items */
+  #book-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  /* Book box styling */
+  .book-box {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  /* Simple hover effect */
+  .book-box:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Cover image styling */
+  .book-box img {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Book info styling */
+  .book-info {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .book-info h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .book-info p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Availability box styling */
+  .availability-box {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  /* Modifier classes for availability colors */
+  .availability-available {
+    background-color: #28a745; /* Green */
+  }
+  
+  .availability-unavailable {
+    background-color: #dc3545; /* Red */
+  }
+  
+  /* About Us - Intro Section */
+  .about-us-intro {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .about-us-intro h1 {
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-intro p {
+    font-size: 14px;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  /* Share Your Books Section */
+  .share-books {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .share-books h2 {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .share-books p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  /* Button Styling */
+  .share-books button {
+    background-color: #28a745; /* Matching green tone */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .share-books button:hover {
+    background-color: #218838; /* Slightly darker green for hover effect */
+  }
+  
+  /* Center the top container horizontally */
+  .top-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 20px; /* Center horizontally and add spacing below */
+    width: 90%; /* Adjust width to fit smaller screens */
+    max-width: 400px; /* Restrict maximum width */
+  }
+  
+  /* Styling for each button */
+  .top-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .top-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 480px) {
+    .about-us-intro,
+    .share-books {
+      padding: 15px;
+    }
+  
+    .about-us-intro h1,
+    .share-books h2 {
+      font-size: 20px;
+    }
+  
+    .share-books p,
+    .about-us-intro p {
+      font-size: 13px;
+    }
+  
+    .share-books button {
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+  
+    .top-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    header {
+      top: 10px; /* Add spacing for smaller devices */
+    }
+  }
+  
+
+
+
+  
+  /* Events container */
+#events-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Event card */
+.event {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+    padding: 15px;
+}
+
+/* Hover effect for event card */
+.event:hover {
+    transform: scale(1.02);
+}
+
+/* Event image */
+.event img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Event title */
+.event h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Event date */
+.event-date {
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Event description */
+.event p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    #events-container {
+        padding: 15px;
+    }
+
+    .event {
+        padding: 10px;
+    }
+
+    .event h3 {
+        font-size: 18px;
+    }
+
+    .event p {
+        font-size: 13px;
+    }
+}

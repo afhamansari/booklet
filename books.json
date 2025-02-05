@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "availability": "available",
+      "description": "A novel about the Jazz Age and the American Dream.",
+      "pages": 180,
+      "cover": "covers/gatsby.jpg"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "availability": "unavailable",
+      "description": "A dystopian novel set in a totalitarian society.",
+      "pages": 328,
+      "cover": "covers/1984.jpg"
+    },
+    {
+      "id": 3,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Classic",
+      "availability": "available",
+      "description": "A story of racial injustice and moral growth in the American South.",
+      "pages": 281,
+      "cover": "covers/mockingbird.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian",
+      "availability": "available",
+      "description": "A futuristic society driven by technological advancements and social control.",
+      "pages": 268,
+      "cover": "covers/brave-new-world.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "availability": "unavailable",
+      "description": "A romantic novel that explores manners and marriage in 19th-century England.",
+      "pages": 279,
+      "cover": "covers/pride-prejudice.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "availability": "available",
+      "description": "A story about the challenges of teenage angst and alienation.",
+      "pages": 214,
+      "cover": "covers/catcher-rye.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "availability": "available",
+      "description": "The adventures of Bilbo Baggins in Middle-earth.",
+      "pages": 310,
+      "cover": "covers/hobbit.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "genre": "Post-apocalyptic",
+      "availability": "unavailable",
+      "description": "A father and son journey through a desolate world after an unnamed disaster.",
+      "pages": 287,
+      "cover": "covers/road.jpg"
+    },
+    {
+      "id": 9,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Adventure",
+      "availability": "available",
+      "description": "A journey of self-discovery following Santiago and his personal legend.",
+      "pages": 208,
+      "cover": "covers/alchemist.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "genre": "Horror",
+      "availability": "unavailable",
+      "description": "The story of Victor Frankenstein and his monstrous creation.",
+      "pages": 280,
+      "cover": "covers/frankenstein.jpg"
+    }
+  ]
+  

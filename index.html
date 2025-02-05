@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Sharing - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <header>
+        <!-- Rectangle container with buttons at the top -->
+        <div class="top-container">
+          <button class="top-button" id="home-button" onclick="location.href='index.html'">Home</button>
+          <button class="top-button" id="events-button" onclick="location.href='events.html'">Events</button>
+          <button class="top-button" id="about-button" onclick="location.href='about-us.html'">About Us</button>
+        </div>
+      </header>
+      
+
+  <!-- Central container with fixed width of 400px -->
+  <div class="container">
+    <!-- Search Bar (dropdown) for genres -->
+    <div class="search-bar">
+      <div class="selected-genre" id="selected-genre">All Genres</div>
+      <ul class="genre-dropdown" id="genre-dropdown">
+        <!-- Dropdown items will be populated dynamically -->
+      </ul>
+    </div>
+    
+    <!-- The book grid will be populated by index.js -->
+    <div id="book-grid"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
