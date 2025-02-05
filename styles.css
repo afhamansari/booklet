@@ -14,15 +14,47 @@
     left: 0; /* Make sure it spans the entire width */
   }
   
+  /* Center the top container horizontally */
+  .top-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 20px; /* Center horizontally and add spacing below */
+    width: 100%; /* Adjust width to fit smaller screens */
+    max-width: 400px; /* Restrict maximum width */
+  }
+  
+  /* Styling for each button */
+  .top-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .top-button:hover {
+    background-color: #218838;
+  }
+
+
   /* Add padding to the body to prevent content overlap */
   body {
-    padding-top: 60px; /* Adjust this value based on the header's height */
+    padding-top: 70px; /* Adjust this value based on the header's height */
   }
   
   
   /* Container with fixed max-width of 400px */
   .container {
-    max-width: 400px;
+    max-width: 600px;
     width: 100%;
     margin: 0 auto; /* Center horizontally */
   }
@@ -85,7 +117,7 @@
   #book-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
   }
   
   /* Book box styling */
@@ -214,36 +246,6 @@
     background-color: #218838; /* Slightly darker green for hover effect */
   }
   
-  /* Center the top container horizontally */
-  .top-container {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 0 auto 20px; /* Center horizontally and add spacing below */
-    width: 90%; /* Adjust width to fit smaller screens */
-    max-width: 400px; /* Restrict maximum width */
-  }
-  
-  /* Styling for each button */
-  .top-button {
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    font-size: 14px;
-    font-family: 'Arial', sans-serif;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .top-button:hover {
-    background-color: #218838;
-  }
 
 
 
