@@ -67,7 +67,7 @@
     "availability": "available",
     "description": "A novel that explores existential themes through the detached perspective of its enigmatic protagonist.",
     "pages": 126,
-    "cover": "covers/the_stranger.jpg"
+    "cover": "covers/the_stranger.jpeg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "availability": "available",
     "description": "A historical examination of the life and legacy of the controversial Mughal ruler Aurangzeb.",
     "pages": 189,
-    "cover": "covers/aurangzeb_the_man_and_the_myth.jpg"
+    "cover": "covers/aurangzeb_the_man_and_the_myth.jpeg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "availability": "available",
     "description": "A biography recounting the conquests and leadership of one of history's most iconic military figures.",
     "pages": 199,
-    "cover": "covers/alexander_the_great.jpg"
+    "cover": "covers/alexander_the_great.jpeg"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "availability": "available",
     "description": "A humorous narrative capturing the challenges and adventures of middle school life through the eyes of a kid.",
     "pages": 217,
-    "cover": "covers/diary_of_a_wimpy_kid.jpg"
+    "cover": "covers/diary_of_a_wimpy_kid.jpeg"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "availability": "available",
     "description": "A timeless collection of Middle Eastern folk tales that have captivated audiences for generations.",
     "pages": 312,
-    "cover": "covers/arabian_nights.jpg"
+    "cover": "covers/arabian_nights.jpeg"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "availability": "available",
     "description": "A moving story of friendship and redemption set against the turbulent backdrop of Afghanistan's history.",
     "pages": 324,
-    "cover": "covers/the_kite_runner.jpg"
+    "cover": "covers/the_kite_runner.jpeg"
   },
   {
     "id": 13,
@@ -127,6 +127,6 @@
     "availability": "available",
     "description": "The poignant memoir of Anne Frank, offering a personal account of life during World War II.",
     "pages": 360,
-    "cover": "covers/the_diary_of_a_young_girl.jpg"
+    "cover": "covers/the_diary_of_a_young_girl.jpeg"
   }
 ]
