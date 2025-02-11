@@ -1,103 +1,132 @@
 [
-    {
-      "id": 1,
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "genre": "Classic",
-      "availability": "available",
-      "description": "A novel about the Jazz Age and the American Dream.",
-      "pages": 180,
-      "cover": "covers/gatsby.jpg"
-    },
-    {
-      "id": 2,
-      "title": "1984",
-      "author": "George Orwell",
-      "genre": "Dystopian",
-      "availability": "unavailable",
-      "description": "A dystopian novel set in a totalitarian society.",
-      "pages": 328,
-      "cover": "covers/1984.jpg"
-    },
-    {
-      "id": 3,
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "genre": "Classic",
-      "availability": "available",
-      "description": "A story of racial injustice and moral growth in the American South.",
-      "pages": 281,
-      "cover": "covers/mockingbird.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "genre": "Dystopian",
-      "availability": "available",
-      "description": "A futuristic society driven by technological advancements and social control.",
-      "pages": 268,
-      "cover": "covers/brave-new-world.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "genre": "Romance",
-      "availability": "unavailable",
-      "description": "A romantic novel that explores manners and marriage in 19th-century England.",
-      "pages": 279,
-      "cover": "covers/pride-prejudice.jpg"
-    },
-    {
-      "id": 6,
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "genre": "Fiction",
-      "availability": "available",
-      "description": "A story about the challenges of teenage angst and alienation.",
-      "pages": 214,
-      "cover": "covers/catcher-rye.jpg"
-    },
-    {
-      "id": 7,
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "availability": "available",
-      "description": "The adventures of Bilbo Baggins in Middle-earth.",
-      "pages": 310,
-      "cover": "covers/hobbit.jpg"
-    },
-    {
-      "id": 8,
-      "title": "The Road",
-      "author": "Cormac McCarthy",
-      "genre": "Post-apocalyptic",
-      "availability": "unavailable",
-      "description": "A father and son journey through a desolate world after an unnamed disaster.",
-      "pages": 287,
-      "cover": "covers/road.jpg"
-    },
-    {
-      "id": 9,
-      "title": "The Alchemist",
-      "author": "Paulo Coelho",
-      "genre": "Adventure",
-      "availability": "available",
-      "description": "A journey of self-discovery following Santiago and his personal legend.",
-      "pages": 208,
-      "cover": "covers/alchemist.jpg"
-    },
-    {
-      "id": 10,
-      "title": "Frankenstein",
-      "author": "Mary Shelley",
-      "genre": "Horror",
-      "availability": "unavailable",
-      "description": "The story of Victor Frankenstein and his monstrous creation.",
-      "pages": 280,
-      "cover": "covers/frankenstein.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "The metamorphosis",
+    "author": "Franz Kafka",
+    "genre": "Fiction",
+    "availability": "available",
+    "description": "A novella that explores themes of alienation and identity through the surreal transformation of its protagonist.",
+    "pages": 70,
+    "cover": "covers/the_metamorphosis.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The prophet",
+    "author": "Kahlil Gibran",
+    "genre": "Philosophy",
+    "availability": "available",
+    "description": "A collection of poetic essays that delve into spiritual insights and the human experience.",
+    "pages": 79,
+    "cover": "covers/the_prophet.jpg"
+  },
+  {
+    "id": 3,
+    "title": "B.R. Ambedkar",
+    "author": "Dr. Anurima Chanda",
+    "genre": "Biography",
+    "availability": "available",
+    "description": "An insightful biography chronicling the life, struggles, and contributions of Dr. B.R. Ambedkar.",
+    "pages": 96,
+    "cover": "covers/br_ambedkar.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Animal farm",
+    "author": "George Orwell",
+    "genre": "Fiction",
+    "availability": "available",
+    "description": "An allegorical novella critiquing totalitarian regimes through the story of a group of farm animals.",
+    "pages": 101,
+    "cover": "covers/animal_farm.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The art of war",
+    "author": "Sun tzu",
+    "genre": "Non Fiction",
+    "availability": "available",
+    "description": "An ancient treatise on military strategy that offers timeless insights into conflict and leadership.",
+    "pages": 103,
+    "cover": "covers/the_art_of_war.jpg"
+  },
+  {
+    "id": 6,
+    "title": "A midsummer night’s dream",
+    "author": "William Shakespeare",
+    "genre": "Fiction",
+    "availability": "available",
+    "description": "A whimsical comedy that interweaves the lives of lovers and fairies in a magical, enchanted forest.",
+    "pages": 106,
+    "cover": "covers/a_midsummer_nights_dream.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The stranger",
+    "author": "Albert Camus",
+    "genre": "Fiction",
+    "availability": "available",
+    "description": "A novel that explores existential themes through the detached perspective of its enigmatic protagonist.",
+    "pages": 126,
+    "cover": "covers/the_stranger.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Aurangzeb the man and the myth",
+    "author": "Audrey Truschke",
+    "genre": "Biography",
+    "availability": "available",
+    "description": "A historical examination of the life and legacy of the controversial Mughal ruler Aurangzeb.",
+    "pages": 189,
+    "cover": "covers/aurangzeb_the_man_and_the_myth.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Alexander the great",
+    "author": "Jacob Abbott",
+    "genre": "Biography",
+    "availability": "available",
+    "description": "A biography recounting the conquests and leadership of one of history's most iconic military figures.",
+    "pages": 199,
+    "cover": "covers/alexander_the_great.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Diary of a wimpy Kid",
+    "author": "Jeff Kinney",
+    "genre": "Fiction",
+    "availability": "available",
+    "description": "A humorous narrative capturing the challenges and adventures of middle school life through the eyes of a kid.",
+    "pages": 217,
+    "cover": "covers/diary_of_a_wimpy_kid.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Arabian nights",
+    "author": "Penguin Classics",
+    "genre": "Folk",
+    "availability": "available",
+    "description": "A timeless collection of Middle Eastern folk tales that have captivated audiences for generations.",
+    "pages": 312,
+    "cover": "covers/arabian_nights.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The kite runner",
+    "author": "Khaled Hosseini",
+    "genre": "Fiction",
+    "availability": "available",
+    "description": "A moving story of friendship and redemption set against the turbulent backdrop of Afghanistan's history.",
+    "pages": 324,
+    "cover": "covers/the_kite_runner.jpg"
+  },
+  {
+    "id": 13,
+    "title": "The diary of a young girl",
+    "author": "Anne Frank",
+    "genre": "Non Fiction",
+    "availability": "available",
+    "description": "The poignant memoir of Anne Frank, offering a personal account of life during World War II.",
+    "pages": 360,
+    "cover": "covers/the_diary_of_a_young_girl.jpg"
+  }
+]
