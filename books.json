@@ -7,7 +7,7 @@
     "availability": "available",
     "description": "A novella that explores themes of alienation and identity through the surreal transformation of its protagonist.",
     "pages": 70,
-    "cover": "covers/the_metamorphosis.jpg"
+    "cover": "covers/the_metamorphosis.jpeg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "availability": "available",
     "description": "A collection of poetic essays that delve into spiritual insights and the human experience.",
     "pages": 79,
-    "cover": "covers/the_prophet.jpg"
+    "cover": "covers/the_prophet.jpeg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "availability": "available",
     "description": "An insightful biography chronicling the life, struggles, and contributions of Dr. B.R. Ambedkar.",
     "pages": 96,
-    "cover": "covers/br_ambedkar.jpg"
+    "cover": "covers/br_ambedkar.jpeg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "availability": "available",
     "description": "An allegorical novella critiquing totalitarian regimes through the story of a group of farm animals.",
     "pages": 101,
-    "cover": "covers/animal_farm.jpg"
+    "cover": "covers/animal_farm.jpeg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "availability": "available",
     "description": "An ancient treatise on military strategy that offers timeless insights into conflict and leadership.",
     "pages": 103,
-    "cover": "covers/the_art_of_war.jpg"
+    "cover": "covers/the_art_of_war.jpeg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "availability": "available",
     "description": "A whimsical comedy that interweaves the lives of lovers and fairies in a magical, enchanted forest.",
     "pages": 106,
-    "cover": "covers/a_midsummer_nights_dream.jpg"
+    "cover": "covers/a_midsummer_nights_dream.jpeg"
   },
   {
     "id": 7,
