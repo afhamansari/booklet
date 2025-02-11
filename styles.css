@@ -150,6 +150,7 @@ body {
   
   /* Book info styling */
   .book-info {
+    padding: 10px;
     text-align: center;
   }
   
